@@ -1,7 +1,9 @@
 # Stronghold Paste Crawler
 
 This contains all the necessary files to setup the enviorment and run the code necessary to crawl the site 'Stronghold Paste'.
-The dockerfile will create an image that contains the configuration and services to run TOR and Privoxy, execute the script to crawl the site and add a cronjob that runs the script again every 4 hours. The database and the log file created by the script will be persistent as volume will be mounted on the host machine. The host machine must have docker installed.
+The dockerfile will create an image that contains the configuration and services to run TOR and Privoxy, execute the scriptto crawl the
+site and add a cronjob that runs the script again every 4 hours. The database and the log file created by the script will be persistent as
+volume will be mounted on the host machine. The host machine must have docker installed.
 
 
 ## Steps:
